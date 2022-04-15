@@ -1,0 +1,174 @@
+.footer__container {
+  background-color: black;
+  color: white;
+}
+
+.footer__wrapper {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em 0em;
+  line-height: 1.5em;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: underline;
+}
+
+.signup {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.socials {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50px;
+  overflow: hidden;
+  float: left;
+  transition: background-color, width 600ms ease-out;
+}
+
+.button:hover {
+  width: 200px;
+  background-color: white;
+}
+
+.button:nth-child(1):hover .icon {
+  background-color: #3b5998;
+}
+
+.button:nth-child(2):hover .icon {
+  background-color: #ff0000;
+}
+
+.button:nth-child(3):hover .icon {
+  background-color: #00acee;
+}
+
+.button:nth-child(4):hover .icon {
+  background-color: #c8232c;
+}
+
+.button:nth-child(5):hover .icon {
+  background-color: black;
+}
+
+.button:nth-child(1):hover span {
+  color: #3b5998;
+}
+
+.button:nth-child(2):hover span {
+  color: #ff0000;
+}
+
+.button:nth-child(3):hover span {
+  color: #00acee;
+}
+
+.button:nth-child(4):hover span {
+  color: #c8232c;
+}
+
+.button:nth-child(5):hover span {
+  color: black;
+}
+
+.button span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: 1em;
+  transition: color 800ms ease-out;
+}
+
+.button .icon {
+  display: inline-block;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  transition: background-color 500ms ease-in;
+}
+
+.button .icon i {
+  font-size: 25px;
+  line-height: 50px;
+  transition: color 500ms ease-out;
+}
+
+.button:hover i {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media screen and (min-width: 600px) {
+  .footer__wrapper__para {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .footer__links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header {
+    flex: 1 1 60%;
+  }
+
+  .links {
+    flex: 1 1 40%;
+  }
+
+  .signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .footer__container {
+    font-size: 1.2rem;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .flex {
+    display: flex;
+    flex: 1 1 50%;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .signup {
+    width: 30%;
+  }
+}

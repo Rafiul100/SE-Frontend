@@ -1,0 +1,45 @@
+.product-subscribe-card {
+  display: flex;
+  align-items: center;
+}
+
+.product-info {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+
+  justify-content: space-around;
+  width: 70%;
+}
+
+.subscribe-price {
+  margin-left: 1em;
+}
+
+.interval-dropdown {
+  background-color: white;
+  color: black;
+  border: solid lightgray 1px;
+  width: 100%;
+}
+
+.subscribe-note {
+  font-size: 0.8rem;
+}
+
+.sub-saleprice {
+  margin-bottom: 0.6em;
+}
+
+.sub-des {
+  width: 90%;
+}
+
+.subscribe-background {
+  background: url("/public/images/wood-background.jpg") center center/cover no-repeat;
+}
+
+.card-style {
+  border: solid black 4px;
+}

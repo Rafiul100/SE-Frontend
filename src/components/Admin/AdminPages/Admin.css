@@ -1,0 +1,153 @@
+#show-sta {
+  display: none;
+}
+
+#show-toi {
+  display: none;
+}
+
+
+
+#show-book {
+  display: none;
+}
+
+.radio-category-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.search-student {
+  margin-left: 1em;
+}
+
+.order-delete-btn {
+  margin-left: 1em;
+}
+
+.search-student-label {
+  font-weight: bold;
+}
+
+.radio-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-span {
+  padding-right: 0.5em;
+}
+
+.admin-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.admin-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.view-admin {
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .admin-filters {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .add-container {
+    position: relative;
+    margin-top: 5em;
+    height: 1px;
+  }
+
+  .admin-filters {
+    width: 50%;
+  }
+
+  .required {
+    position: relative;
+    bottom: 155px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .admin-functionalities {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-student {
+    margin-left: 0;
+    width: 70%;
+  }
+
+  .admin-filters {
+    width: 60%;
+  }
+
+  .view-student {
+    width: 70%;
+    margin-bottom: 0.5em;
+  }
+
+  .view-admin {
+    width: 70%;
+    margin-bottom: 0.5em;
+    position: relative;
+    left: 7px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .admin-filters {
+    width: 80%;
+  }
+
+  .search-student {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .view-student {
+    width: 85%;
+  }
+
+  .view-admin {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card-header {
+    font-size: 0.8rem;
+  }
+
+  .admin-filters {
+    width: 90%;
+  }
+
+  .view-admin {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .admin-filters {
+    width: 100%;
+  }
+}

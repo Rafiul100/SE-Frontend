@@ -1,0 +1,425 @@
+.navbar {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.navbar-logo-container {
+  position: absolute;
+  left: 20px;
+  font-size: 1.6rem;
+}
+
+.essentials {
+  display: none;
+}
+
+.nav-profile {
+  display: none;
+}
+
+.dropdown-colour {
+  background-color: var(--primary-clr);
+}
+
+.cart-mobile {
+  display: none;
+}
+
+.dropdown {
+  margin-bottom: 1em;
+}
+
+.dropdown-item {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.dropdown-item:hover {
+  background-color: black;
+  border-bottom: 4px solid #ff4500;
+  color: var(--accent-clr);
+  transition: var(--slow-transition);
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  width: 20%;
+}
+
+.btn-profile {
+  width: 100%;
+
+  padding: 0;
+}
+
+.dropdown-desktop {
+  margin-top: 1.3em;
+}
+
+.nav-item-essentials {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-item-essentials:hover {
+  color: var(--accent-clr);
+  transition: var(--slow-transition);
+}
+.dropdown-menu {
+  background-color: black;
+}
+
+.nav-student {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.link-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo:hover {
+  color: var(--accent-clr);
+  transition: var(--slow-transition);
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 0rem;
+  height: 100%;
+  font-size: 1.2rem;
+}
+
+.username {
+  color: var(--secondary-clr);
+  width: 11%;
+  text-transform: capitalize;
+}
+
+.username:hover {
+  color: var(--accent-clr);
+  transition: var(--slow-transition);
+}
+
+.username::after {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.dropdown-toggle {
+  color: white;
+}
+
+.dropdown-toggle:hover {
+  color: var(--accent-clr);
+  transition: var(--slow-transition);
+}
+
+.nav-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-right: 1em;
+}
+
+.cart-style {
+  color: white;
+  width: 100px;
+  height: 200px;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #ff4500;
+  color: var(--accent-clr);
+  transition: var(--slow-transition);
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.dropdown-mobile {
+  display: none;
+  position: relative;
+  padding-top: 2em;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.menu-mobile {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  width: 40%;
+  padding: 0;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.buttons {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  width: 30%;
+  margin-bottom: 1em;
+}
+
+.mobile-menu {
+  margin-left: 17em;
+  margin-bottom: 20em;
+}
+
+.padding-link {
+  font-size: 1.2rem;
+  padding: 2rem 1rem;
+}
+
+/*.logout {
+  font-size: 1.3rem;
+  padding: 0.5em 1em;
+  display: block;
+  background-color: red;
+  border: none;
+  color: var(--secondary-clr);
+  border-radius: 5px;
+  margin-bottom: 1em;
+} */
+
+@media screen and (max-width: 1400px) {
+  .buttons {
+    width: 30%;
+  }
+
+  .navbar-logo {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-logo-container {
+    left: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .buttons {
+    width: 37%;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+  }
+
+  .nav-item-essentials {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-links {
+    font-size: 1.2rem;
+  }
+
+  .nav-item-essentials {
+    font-size: 1.2rem;
+  }
+
+  .dropdown-mobile {
+    display: block;
+  }
+
+  .dropdown-welcome {
+    display: none;
+  }
+
+  .cart-mobile {
+    display: block;
+  }
+
+  .cart-desktop {
+    display: none;
+  }
+
+  .nav-student {
+    display: block;
+    width: 100%;
+  }
+
+  .essentials {
+    display: block;
+  }
+
+  .dropdown-desktop {
+    display: none;
+  }
+
+  .nav-profile {
+    display: block;
+  }
+
+  .username {
+    display: none;
+  }
+
+  .logout {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    height: 100vh;
+  }
+
+  .navbar-logo-container {
+    position: absolute;
+    left: 10px;
+    font-size: 1.8rem;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem 0rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 50px;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .student-home {
+    margin-top: 5em;
+  }
+
+  .nav-item {
+    position: relative;
+    margin-right: 2em;
+    bottom: 75px;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: var(--secondary-clr);
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .essential-link-mobile {
+    padding: 5px 0;
+  }
+}
