@@ -86,7 +86,7 @@ function Checkout() {
               amount: {
                 //change value back to totalprice for real application, to test application use 0.1
                 // value: totalPrice,
-                value: '0.1', 
+                value: totalPrice, 
               },
             },
           ],

@@ -250,10 +250,10 @@ if (loading) {
 
                 <ul className="nav nav-tabs add-container" id="myTab" role="tablist">
                 <li className="nav-item required" role="presentation">
-                <button className="nav-link active" id="required-tab" data-bs-toggle="tab" data-bs-target="#required" type="button" role="tab" aria-controls="required" aria-selected="true">Required</button>
+                <button className="nav-link active" id="required-tab" data-bs-toggle="tab" data-bs-target="#required" type="button" role="tab" aria-controls="required" aria-selected="true">Section 1</button>
                 </li>
                 <li className="nav-item optional" role="presentation">
-                <button class="nav-link" id="optional-tab" data-bs-toggle="tab" data-bs-target="#optional" type="button" role="tab" aria-controls="optional" aria-selected="false">Optional</button>
+                <button class="nav-link" id="optional-tab" data-bs-toggle="tab" data-bs-target="#optional" type="button" role="tab" aria-controls="optional" aria-selected="false">Section 2</button>
                 </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
